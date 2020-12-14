@@ -1,4 +1,3 @@
-Resolving dependencies...
 module DevcampmssViewTool
   class Renderer
     def self.copyright(name, msg)

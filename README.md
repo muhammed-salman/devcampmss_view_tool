@@ -1,8 +1,6 @@
 # DevcampmssViewTool
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/devcampmss_view_tool`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+> Various view specific methods for applications I use.
 
 ## Installation
 
@@ -22,8 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
+```ruby
+DevcampmssViewTool::Renderer.copyright 'Muhammed Salman', 'All rights reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
